@@ -116,7 +116,7 @@ function CreateNewDivs(){
     DivDescription.innerHTML = DescriptionInput.value;
     DivTitle.style.color = ColorInput.value;
     DivDescription.style.color = ColorInput.value;
-    DivBackground.className = "col-xs-12 col-sm-6 col-md-4 col-lg-3";
+    /*DivBackground.className = "col-xs-12 col-sm-6 col-md-4 col-lg-3";*/
 };
 
 document.getElementById("+").addEventListener("click", function(){
